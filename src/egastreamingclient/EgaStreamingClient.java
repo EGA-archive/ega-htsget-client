@@ -65,7 +65,7 @@ import okhttp3.ResponseBody;
  */
 public class EgaStreamingClient {
     private static final int VERSION_MAJOR = 1;
-    private static final int VERSION_MINOR = 0;
+    private static final int VERSION_MINOR = 1;
     
     private static OkHttpClient client = null;
 
@@ -92,7 +92,8 @@ public class EgaStreamingClient {
     private static enum Format {
         BAM,
         CRAM,
-        VCF
+        VCF,
+        BCF
     }
 
     /**
