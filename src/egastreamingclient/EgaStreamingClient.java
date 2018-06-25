@@ -551,10 +551,10 @@ public class EgaStreamingClient {
      */
     @Parameters
     static class Params {
-        @Parameter(names = {"--endpoint-url"}, description = "An endpoint URL to be used for quering")
+        @Parameter(names = {"--endpoint-url"}, description = "An endpoint URL to be used for querying")
         String endpointUrl;
 
-        @Parameter(names = {"--endpoint-name"}, description = "Endpoint name to be used for quering, resolved via configuration file")
+        @Parameter(names = {"--endpoint-name"}, description = "Endpoint name to be used for querying, resolved via configuration file")
         String endpointName;
 
         @Parameter(names = {"--dataset-id"}, description = "Dataset id to request")
@@ -602,10 +602,10 @@ public class EgaStreamingClient {
         @Parameter(names = {"--help"}, description = "Print Help", help = true)
         boolean help = false;
 
-        @Parameter(names = {"--version"}, description = "Print Verison Number", help = true)
+        @Parameter(names = {"--version"}, description = "Print Version Number", help = true)
         boolean version = false;
 
-        @Parameter(names = {"--debug"}, description = "Print Soem Debug Information", help = true)
+        @Parameter(names = {"--debug"}, description = "Print Some Debug Information", help = true)
         boolean debug = false;
     }
 
